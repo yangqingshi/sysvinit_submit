@@ -263,7 +263,7 @@ int main(int argc, char **argv)
 
 	if (do_sync) {
 		sync();
-		sleep(2);
+		sleep(1);
 	}
 
 	if (do_ifdown)
